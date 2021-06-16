@@ -1,0 +1,33 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@4.2.0
+
+jobs:
+  tests:
+    docker:
+      - image: 'circleci/node:14.16.0'
+    steps:
+      - checkout
+      - run:
+          name: Show Node version
+          command: |
+            node --version
+            yarn --version
+      - run:
+          name: install-packages
+          command: yarn install
+      - run:
+          name: Swagger
+          command: yarn run swagger-autogen
+      - run:
+          name: Tests-unit
+          command: yarn test:unit
+      - run:
+          name: Tests-functional
+          command: yarn test:functional
+
+workflows:
+  ci:
+    jobs:
+      - tests

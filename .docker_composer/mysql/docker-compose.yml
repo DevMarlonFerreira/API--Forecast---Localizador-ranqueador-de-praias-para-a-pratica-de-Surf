@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  DB-Server:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 'marlon'
+      MYSQL_DATABASE: 'produtos'
+    ports:
+      - '3306:3306'
+    volumes:
+      - C:\Dev\docker\volumes\mysql
+    networks:
+      - mysql-compose-network
+
+  adminer:
+    image: adminer
+    ports:
+      - 8081:8080
+    networks:
+      - mysql-compose-network
+
+networks:
+  mysql-compose-network:
+    driver: bridge

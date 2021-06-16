@@ -1,0 +1,48 @@
+version: "3.8"
+
+services:
+  DB-Server:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: "marlon"
+      MYSQL_DATABASE: "produtos"
+    ports:
+      - "3306:3306"
+    volumes:
+      - C:\Dev\docker\volumes\mysql
+    networks:
+      - mysql-compose-network
+
+  adminer:
+    image: adminer
+    ports:
+      - 8081:8080
+    networks:
+      - mysql-compose-network
+
+  Back-End-Server:
+    image: marlonferreira/backgs
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://DB-Server:3306/produtos?autoReconnect=true&useSSL=false
+      DATABASE_HOST: "DB-Server"
+      DATABASE_PORT: "3306"
+      DATABASE_NAME: "produtos"
+      DATABASE_USER: "root"
+      DATABASE_PASSWORD: "marlon"
+    links:
+      - DB-Server
+    depends_on:
+      - DB-Server
+    networks:
+      - mysql-compose-network
+
+  Front-End-Server:
+    image: marlonferreira/frontgs
+    ports:
+      - "80:80"
+
+networks:
+  mysql-compose-network:
+    driver: bridge

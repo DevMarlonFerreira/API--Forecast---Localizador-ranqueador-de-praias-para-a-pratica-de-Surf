@@ -1,0 +1,9 @@
+{
+  "App": {
+    "resources": {
+      "StormGlass": {
+        "apiToken": "do-not-hard-code"
+      }
+    }
+  }
+}
