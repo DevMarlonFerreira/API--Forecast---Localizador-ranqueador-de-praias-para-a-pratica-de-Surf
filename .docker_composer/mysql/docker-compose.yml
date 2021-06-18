@@ -9,7 +9,7 @@ services:
     ports:
       - '3306:3306'
     volumes:
-      - C:\Dev\docker\volumes\mysql
+      - D:\Users\Marlon\Desktop\Dev\docker\volumes\mysql
     networks:
       - mysql-compose-network
 

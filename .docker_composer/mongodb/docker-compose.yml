@@ -24,7 +24,7 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - C:\Users\1545 IRON V4\Desktop\Dev\docker\volumes\mongo
+      - D:\Users\Marlon\Desktop\Dev\docker\volumes\mongo
     networks:
       - mongo-compose-network
 
