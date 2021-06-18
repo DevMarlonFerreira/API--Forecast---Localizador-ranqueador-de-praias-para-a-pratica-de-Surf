@@ -1,4 +1,4 @@
-import { Beach, BeachPosition } from '@src/models/beach';
+import { Beach, GeoPosition } from '@src/models/beach';
 import nock from 'nock';
 import stormGlassWeather3HoursFixture from '@test/fixtures/stormglass_weather_3_hours.json';
 import apiForecastResponse1BeachFixture from '@test/fixtures/api_forecast_response_1_beach.json';
@@ -21,7 +21,7 @@ describe('Beach forecast functional tests', () => {
       lat: -33.792726,
       lng: 151.289824,
       name: 'Manly',
-      position: BeachPosition.E,
+      position: GeoPosition.E,
       user: user.id
     };
     await new Beach(defaultBeach).save();
@@ -38,9 +38,8 @@ describe('Beach forecast functional tests', () => {
     })
       .defaultReplyHeaders({ 'access-control-allow-origin': '*' })
       .get('/v2/weather/point')
-      .query({ "params": "swellDirection%2CswellHeight%2CswellPeriod%2CwaveDirection%2CwaveHeight%2CwindDirection%2CwindSpeed", "source": "noaa", "lat": "-33.792726", "lng": "151.289824" })
+      .query({ "params": "swellDirection%2CswellHeight%2CswellPeriod%2CwaveDirection%2CwaveHeight%2CwindDirection%2CwindSpeed", "source": "noaa", "end": "/(.*)/", "lat": "-33.792726", "lng": "151.289824" })
       .reply(200, stormGlassWeather3HoursFixture);
-
 
     const { body, status } = await global.testRequest.get('/forecast').set({ 'x-access-token': token });
     expect(status).toBe(200);
