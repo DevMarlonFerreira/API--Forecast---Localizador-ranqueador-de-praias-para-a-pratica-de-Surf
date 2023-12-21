@@ -13,7 +13,7 @@ API que calcula a melhor condição de surf entre diversas praias.
 <h2 tabindex="-1" dir="auto"><a id="user-content--built-with" class="anchor" aria-hidden="true" tabindex="-1" href="#-built-with">🔧 Built With 🔧</h2>
 
 * [![Node][Node.org]][Node-url]
-* [![Typescript][typescript.org]][Typescript-url]
+* [![Typescript][Typescript.org]][Typescript-url]
 * [![Jest][Jestjs.io]][Jest-url]
 * [![MongoDB][mongodb.com]][MongoDB-url]
 * [![Github Actions][github.com/features/actions]][GithubActions-url]
@@ -24,8 +24,11 @@ API que calcula a melhor condição de surf entre diversas praias.
 [Node.org]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
 [Node-url]: https://nodejs.org
 
-[typescript.org]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[Typescript.org]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 [Typescript-url]: https://www.typescriptlang.org
 
 [jestjs.io]: https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white
 [jest-url]: https://jestjs.io/
+
+[mongodb.com]: https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
+[MongoDB-url]: https://www.mongodb.com/
