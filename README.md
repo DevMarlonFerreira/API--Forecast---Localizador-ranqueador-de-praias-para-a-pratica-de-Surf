@@ -12,11 +12,11 @@ API que calcula a melhor condição de surf entre diversas praias.
 
 <h2 tabindex="-1" dir="auto"><a id="user-content--built-with" class="anchor" aria-hidden="true" tabindex="-1" href="#-built-with">🔧 Built With 🔧</h2>
 
-* [![Node][Node.org]][Node-url]
-* [![Typescript][Typescript.org]][Typescript-url]
-* [![Jest][Jestjs.io]][Jest-url]
-* [![MongoDB][mongodb.com]][MongoDB-url]
-* [![Github Actions][github-actions]][GithubActions-url]
+  [![Node][Node.org]][Node-url]
+[![Typescript][Typescript.org]][Typescript-url]
+[![Jest][Jestjs.io]][Jest-url]
+[![MongoDB][mongodb.com]][MongoDB-url]
+[![Github Actions][github-actions]][GithubActions-url]
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
