@@ -13,7 +13,7 @@ API que calcula a melhor condição de surf entre diversas praias.
 <h2 tabindex="-1" dir="auto"><a id="user-content--built-with" class="anchor" aria-hidden="true" tabindex="-1" href="#-built-with">🔧 Built With 🔧</h2>
 
 * [![Node][Node.org]][Node-url]
-* [![Typescript][typescriptlang.org]][Typescript-url]
+* [![Typescript][typescript.org]][Typescript-url]
 * [![Jest][jestjs.io]][Jest-url]
 * [![MongoDB][mongodb.com]][MongoDB-url]
 * [![Github Actions][github.com/features/actions]][GithubActions-url]
@@ -23,3 +23,6 @@ API que calcula a melhor condição de surf entre diversas praias.
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [Node.org]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
 [Node-url]: https://nodejs.org
+
+[typescript.org]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[Typescript-url]: https://www.typescriptlang.org
