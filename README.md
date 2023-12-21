@@ -16,7 +16,7 @@ API que calcula a melhor condição de surf entre diversas praias.
 * [![Typescript][Typescript.org]][Typescript-url]
 * [![Jest][Jestjs.io]][Jest-url]
 * [![MongoDB][mongodb.com]][MongoDB-url]
-* [![Github Actions][github.com/features/actions]][GithubActions-url]
+* [![Github Actions][github-actions]][GithubActions-url]
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -32,3 +32,6 @@ API que calcula a melhor condição de surf entre diversas praias.
 
 [mongodb.com]: https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
 [MongoDB-url]: https://www.mongodb.com/
+
+[github-actions]: https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white
+[GithubActions-url]: https://docs.github.com/pt/actions
