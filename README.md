@@ -7,7 +7,7 @@
 
 Back-end: API que calcula a melhor condição de surf entre diversas praias. 
 
-Os dados referentes ao clima são obtidos consumindo a Storm Glass API e o ranqeamento de praias é feito internamente na própria API.
+Os dados referentes ao clima são obtidos consumindo a Storm Glass API e o ranqueamento de praias é feito internamente na própria API.
 
 <h2 tabindex="-1" dir="auto"><a id="user-content--built-with" class="anchor" aria-hidden="true" tabindex="-1" href="#-built-with">🔧 Built With 🔧</h2>
 
