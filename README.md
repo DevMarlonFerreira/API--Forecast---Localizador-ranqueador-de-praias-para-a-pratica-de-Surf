@@ -1,13 +1,13 @@
 <a name="readme-top"></a>
 
-<h3 align="center">Forecast</h3>
+<h1 align="center">Forecast</h1>
   
 <!-- ABOUT THE PROJECT -->
 <h2 tabindex="-1" dir="auto"><a id="user-content--about-the-project" class="anchor" aria-hidden="true" tabindex="-1" href="#about-the-project">🔭 About The Project 🔭</h2>
 
 Back-end: API que calcula a melhor condição de surf entre diversas praias. 
 
-Os dados referentes ao clima são obtidos consumindo a Storm Glass API e o ranqueamento de praias é feito internamente na própria API.
+Os dados referentes ao clima são obtidos consumindo a Storm Glass API e o ranqueamento de praias é feito internamente na API Forecast.
 
 <h2 tabindex="-1" dir="auto"><a id="user-content--built-with" class="anchor" aria-hidden="true" tabindex="-1" href="#-built-with">🔧 Built With 🔧</h2>
 
