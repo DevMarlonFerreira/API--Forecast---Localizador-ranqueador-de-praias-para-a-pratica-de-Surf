@@ -9,11 +9,13 @@ API que calcula a melhor condição de surf entre diversas praias. Os dados refe
 
 <h2 tabindex="-1" dir="auto"><a id="user-content--built-with" class="anchor" aria-hidden="true" tabindex="-1" href="#-built-with">🔧 Built With 🔧</h2>
 
-  [![Node][Node.org]][Node-url]
+[![Node][Node.org]][Node-url]
 [![Typescript][Typescript.org]][Typescript-url]
 [![Jest][Jestjs.io]][Jest-url]
 [![MongoDB][mongodb.com]][MongoDB-url]
 [![Github Actions][github-actions]][GithubActions-url]
+[![Eslint][eslint.org]][Eslint-url]
+[![Prettier][prettier.io]][Prettier-url]
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -32,3 +34,9 @@ API que calcula a melhor condição de surf entre diversas praias. Os dados refe
 
 [github-actions]: https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white
 [GithubActions-url]: https://docs.github.com/pt/actions
+
+[Eslint]: https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white
+[eslint-url]: https://eslint.org/
+
+[Prettier]: https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E
+[prettier-url]: https://prettier.io/
