@@ -5,7 +5,7 @@
 <!-- ABOUT THE PROJECT -->
 <h2 tabindex="-1" dir="auto"><a id="user-content--about-the-project" class="anchor" aria-hidden="true" tabindex="-1" href="#about-the-project">🔭 About The Project 🔭</h2>
 
-Back-end: API que calcula a melhor condição de surf entre diversas praias. 
+Back-end: API que compara o clima atual entre diversas praias com o objetivo de ranquealas para a prática de surf. 
 
 Os dados referentes ao clima são obtidos consumindo a Storm Glass API e o ranqueamento de praias é feito internamente na API Forecast.
 
