@@ -36,7 +36,7 @@ API que calcula a melhor condição de surf entre diversas praias. Os dados refe
 [GithubActions-url]: https://docs.github.com/pt/actions
 
 [Eslint]: https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white
-[eslint-url]: https://eslint.org/
+[Eslint-url]: https://eslint.org/
 
 [Prettier]: https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E
-[prettier-url]: https://prettier.io/
+[Prettier-url]: https://prettier.io/
