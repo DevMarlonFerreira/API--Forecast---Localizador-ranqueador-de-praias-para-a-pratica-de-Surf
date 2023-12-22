@@ -19,6 +19,8 @@ Os dados referentes ao clima são obtidos consumindo a Storm Glass API e o ranqu
 [![Eslint][eslint.org]][Eslint-url]
 [![Prettier][prettier.io]][Prettier-url]
 
+[![Express][express.com]][Express-url]
+[![Jwt][jwt.io]][Jwt-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -42,3 +44,9 @@ Os dados referentes ao clima são obtidos consumindo a Storm Glass API e o ranqu
 
 [prettier.io]: https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E
 [Prettier-url]: https://prettier.io/
+
+[express.com]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
+[Express-url]: https://expressjs.com/
+
+[jwt.io]: https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink
+[Jwt-url]: https://jwt.io/
